@@ -1,3 +1,11 @@
+# -----------------------------------
+# 
+# femlearn.py
+# 
+# Authors: Victor Lueddemann and Emile Breyer
+# 
+# -----------------------------------
+
 import copy
 import math
 from platform import node
@@ -3057,4 +3065,5 @@ class Model2d():
 
         # Render and interact
         render_window.Render()
+
         render_window_interactor.Start()
